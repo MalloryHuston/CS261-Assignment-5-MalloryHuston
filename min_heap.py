@@ -48,25 +48,26 @@ class MinHeap:
 
     def add(self, node: object) -> None:
         """
-        TODO: Write this implementation
+        Adds a new object to the MinHeap maintaining heap property
         """
         pass
 
     def get_min(self) -> object:
         """
-        TODO: Write this implementation
+        Returns an object with a minimum key without removing it from the heap
         """
         return None
 
     def remove_min(self) -> object:
         """
-        TODO: Write this implementation
+        Returns an object with a minimum key and removes it from the heap
         """
         return None
 
     def build_heap(self, da: DynamicArray) -> None:
         """
-        TODO: Write this implementation
+        Receives a dynamic array with objects in any order and builds a proper
+        MinHeap from them
         """
         pass
 
