@@ -61,55 +61,58 @@ class HashMap:
 
     def clear(self) -> None:
         """
-        TODO: Write this implementation
+        Clears the content of the hash map
         """
         pass
 
     def get(self, key: str) -> object:
         """
-        TODO: Write this implementation
+        Returns the value associated with the given key
         """
         return None
 
     def put(self, key: str, value: object) -> None:
         """
-        TODO: Write this implementation
+        Updates the key / value pair in the hash map. If a given key already exists
+        in the hash map, its associated value should be replaced with the new value.
+        If a given key is not in the hash map, a key / value pair should be added.
         """
         pass
 
     def remove(self, key: str) -> None:
         """
-        TODO: Write this implementation
+        Removes the given key and its associated value from the hash map
         """
         pass
 
     def contains_key(self, key: str) -> bool:
         """
-        TODO: Write this implementation
+        Returns True if the given key is in the hash map, False otherwise
         """
         return False
 
     def empty_buckets(self) -> int:
         """
-        TODO: Write this implementation
+        Returns the number of empty buckets in the hash table
         """
         return 0
 
     def table_load(self) -> float:
         """
-        TODO: Write this implementation
+        Returns the current hash table load factor
         """
         return 0.0
 
     def resize_table(self, new_capacity: int) -> None:
         """
-        TODO: Write this implementation
+        Changes the capacity of the internal hash table. All existing key / value
+        pairs must remain in the new hash map and all hash links must be rehashed.
         """
         pass
 
     def get_keys(self) -> DynamicArray:
         """
-        TODO: Write this implementation
+        Returns a DynamicArray that contains all keys stored in your hash map
         """
         return DynamicArray()
 
