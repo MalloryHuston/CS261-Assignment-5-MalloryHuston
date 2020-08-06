@@ -1,9 +1,7 @@
 # Course: CS 261 - Data Structures
 # Student Name: Mallory Huston
 # Assignment: 5, Part 2
-# Description: Use of a dynamic array to implement the complete binary tree heap in
-#              which the value in each internal node is smaller than or equal to the
-#              values in the children of that node.
+# Description: Implementation of a min heap data structure.
 
 
 # Import pre-written DynamicArray and LinkedList classes
@@ -66,8 +64,7 @@ class MinHeap:
 
     def build_heap(self, da: DynamicArray) -> None:
         """
-        Receives a dynamic array with objects in any order and builds a proper
-        MinHeap from them
+        Receives a DynamicArray with objects in any order and builds a proper MinHeap from them
         """
         pass
 
