@@ -1,7 +1,7 @@
 # Course: CS 261 - Data Structures
 # Student Name: Mallory Huston
 # Assignment: 5, Part 1
-# Description: 'Helper' data structures for the hash map.
+# Description: 'Helper' data structures.
 
 
 class SLNode:
